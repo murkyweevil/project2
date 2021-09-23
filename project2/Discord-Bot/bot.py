@@ -46,8 +46,7 @@ async def on_message(message):
     ]
 
     if message.content == 'Why Though':
-        #response = random.choice(brooklyn_99_quotes)
-        response = random.choice(hitchhiker_quotes)
+        response = 'This is all for a school project!'
         await message.channel.send(response)
 
 client.run(TOKEN)
